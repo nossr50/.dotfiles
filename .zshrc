@@ -101,4 +101,6 @@ BULLETTRAIN_PROMPT_ORDER=(
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
         source /etc/profile.d/vte.sh
-fi 
+fi
+
+ssh-add ~/.ssh/id_rsa
