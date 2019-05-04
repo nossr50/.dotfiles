@@ -103,4 +103,4 @@ if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
         source /etc/profile.d/vte.sh
 fi
 
-ssh-add ~/.ssh/id_rsa
+eval $(keychain --eval --quiet id_rsa)
